@@ -1,0 +1,26 @@
+<html>
+   <head>
+          <h1>With The Help Of New date in the value of Today s date</h1>>
+    </head>
+       <button onclick=" window.print()"> print this page</button>
+     <body> 
+        <p id = "sample"> </p>    
+    <script>
+       var today = new Date();
+             var dd = String(today.getDate()).padStart( 2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2 ,'0');   
+          var yyyy = today.getFullYear();
+             today = mm + '/ '+ dd + '/' + yyyy;
+           document.write(today);
+    </script>
+         <script>  
+                var today = new Date();
+                var dd = String(today.getDate()).padStart( 2, '0');
+                var mm = String(today.getMonth() + 1).padStart(2 ,'0');
+                var yyyy = today.getFullYear();
+            today = mm + '- '+ dd + '-' + yyyy;
+                 document.write(today);
+           
+      </script>
+   </body>
+</html>
