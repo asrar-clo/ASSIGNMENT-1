@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Day 5  Assignment 1 </h1>
+    <script>
+     // to take positive number with the help of user
+     let arr = [1,2,3,4,5];
+
+     
+     let arr1 = [1,2,3,4,5,6,7,8,9,10];
+     let even = arr1.filter(el=>el%2==0);
+     let square = arr1.filter(el=>el%2==0).map(el=>el**2);
+     ///take array of cubic number
+     let cubic = arr1.filter(el=>el%1==0).map(el=>el**3);
+console.log(even);
+console.log(square);
+console.log(cubic);
+// make an number of array till the number given by the user
+arr.forEach((el)=>{
+         console.log(el);
+     })    
+     let users = [{"user": "👩🏻‍💻"},{"user": "👨🏾‍💻"},{"user": "💃"},{"user": "👨🏻‍🎓"},{"user": "🧑🏻‍🏫"},{"user": "🦸‍♂️"},{"user": "🧟‍♂️"}];
+       let accdetails = users.map(user=>{
+           let num = Math.random()*200;
+           user.num =num; 
+            return user;   
+           
+       })
+        // if the lesser than user value then{|}
+       let tally = accdetails.filter(user=>{
+           if (user.num>90) { 
+           return user;
+        }
+       })
+    console.log(tally);
+    /// take higher order function to come output as odd number
+       let arr3 = [9,8,4,3];
+       let odd = arr3.filter(el=>el%3==0);
+       
+       console.log(odd);
+       </script>
+</body>
+</html>
