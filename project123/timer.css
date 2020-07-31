@@ -1,0 +1,22 @@
+h1{
+    color:rgb(55, 55, 73);
+    background-color: rgb(206, 206, 248);
+    
+  
+}
+.container{
+    background-color: darkslateblue;
+    color:grey;
+    padding: 0 auto;
+    border: red solid 5px;
+}
+
+
+button{
+    padding-right:100px;
+    text-align: center;
+   align-items: center;
+   margin-right: 10px;
+border: black solid 2px;
+}
+
